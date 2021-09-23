@@ -37,7 +37,7 @@ function init() {
     scene.add(axesHelper);
 
     camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 100);
-    camera.position.set(2, 3, -2);
+    camera.position.set(0, 0, 5);
     camera.lookAt(mesh.position);
     clock = new THREE.Clock();
     window.addEventListener('resize', onWindowResize, false);
